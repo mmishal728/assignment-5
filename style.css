@@ -1,0 +1,41 @@
+body {
+  text-align: center;
+  margin: 50px;
+  padding: 50px;
+}
+.meal-img {
+  margin: 15px;
+  padding: 15px;
+}
+.meal-result {
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 21px -12px gray;
+  margin: 5px 0;
+}
+.meal-img img {
+  width: 100%;
+  display: block;
+}
+/* #meal {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3px;
+} */
+#meal {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+}
+.recipe-meal-img img {
+  width: 200px;
+  margin: 5px;
+  padding: 5px;
+}
+.recipe-details {
+  border-radius: 20px;
+  width: 20%;
+  height: 50%;
+  box-shadow: 0 4px 21px -12px gray;
+  display: none;
+}
